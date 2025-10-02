@@ -37,4 +37,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_LOCAL_ENV }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL_LOCAL_ENV }}
-        run: ./gradlew build sonar --info
+        # run: ./gradlew build sonar --info
+        run: ./gradlew sonar --info
