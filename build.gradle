@@ -40,8 +40,10 @@ repositories {
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "wenhan-sonar_VulnerableApp_07f167dc-303d-4dfb-a41c-a4c5fb503b65"
-    property("sonar.projectName", "VulnerableApp")
+    //property "sonar.projectKey", "wenhan-sonar_VulnerableApp_07f167dc-303d-4dfb-a41c-a4c5fb503b65"
+    //property("sonar.projectName", "VulnerableApp")
+    property "sonar.projectKey", "Nintendo_scan_test"
+    property("sonar.projectName", "Nintendo_scan_test")
     property 'sonar.java.source', '1.8'
     property 'sonar.java.target', '1.8'
   }
